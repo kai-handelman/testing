@@ -13,10 +13,10 @@ struct text{
 
 int main ( int argc, char const *argv[])
 {
-  string test1 = "apple";
-  string test2 = "bear";
-  text woo;
-  woo.name = "afa";
+      string test1 = "apple";
+      string test2 = "bear";
+      text woo;
+      woo.name = "afa";
 
   cout << test1.compare(test2) << endl;
 
